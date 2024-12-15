@@ -15,6 +15,15 @@ return {
   },
   opts = {
     filesystem = {
+      follow_current_file = {
+        enabled = true,
+      },
+      filtered_items = {
+        visible = true,
+        show_hidden_count = true,
+        hide_dot_files = false,
+        hide_gitignore = false,
+      },
       window = {
         mappings = {
           ['\\'] = 'close_window',
